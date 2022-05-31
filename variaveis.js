@@ -40,9 +40,27 @@ if (forma1 === 'triangulo'){
 
 } else {
 
-    area2 = (altura2 * comprimento2) / 2;  
+    area3 = (altura2 * comprimento2) / 2;  
 
 }
 
  console.log(area2  + ' Usando const'); 
 
+
+
+
+
+//exemplo 
+ var respostaDeTudo = 42;
+ let idade = 29;
+ const pi = 3.14;
+
+ {
+    var respostaDeTudo = 3.14;
+    let idade = 42; // Quando usamos a let em uma variável já criada estamos reiniciando ela com os novos valores.
+    const pi = 29;
+
+    console.log(respostaDeTudo, idade, pi);
+
+}
+console.log(respostaDeTudo, idade, pi);
