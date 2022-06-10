@@ -46,10 +46,6 @@ if (forma1 === 'triangulo'){
 
  console.log(area2  + ' Usando const'); 
 
-
-
-
-
 //exemplo 
  var respostaDeTudo = 42;
  let idade = 29;
